@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: hsl(216, 12%, 8%);
+}
+
+h1 {
+    color: white;
+}
+
+.rating-component {
+    background: hsl(213, 19%, 18%);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: center;
+    color: hsl(217, 12%, 63%);
+    width: 400px;
+}
+
+.rating-button {
+    margin: 5px;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 50%;
+    background: hsl(217, 12%, 63%);
+    cursor: pointer;
+    background-color: hsl(217, 12%, 63%);
+    transition: background 0.3s;
+    color: white;
+}
+
+.rating-button:hover,
+.rating-button:focus {
+    background: hsl(25, 97%, 53%);
+}
+
+#submit-rating {
+    margin-top: 20px;
+    padding: 10px 100px;
+    border: none;
+    border-radius: 50px;
+    background: white;
+    color: hsl(213, 19%, 18%);
+    cursor: pointer;
+    transition: background 0.3s;
+    font-weight: bold;
+}
+
+#submit-rating:hover,
+#submit-rating:focus {
+    background: hsl(25, 97%, 53%);
+}
+
+#selected {
+    color: hsl(25, 97%, 53%);
+}
+
+.thank-you-card {
+    display: none;
+}
